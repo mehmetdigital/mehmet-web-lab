@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mehmet Web Lab — web sitesi geliştirme, tasarım ve AI otomasyon öğrenme laboratuvarı." />
+  <title>Mehmet Web Lab</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">MEHMET <span>WEB LAB</span></a>
+      <nav class="nav" aria-label="Ana menü">
+        <a href="#about">Benim Yol Haritam</a>
+        <a href="#projects">Projeler</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#tasks">Görevler</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">SIFIRDAN ÖĞRENME PROJESİ</p>
+          <h1>Web sitesi kurmayı,<br /><span>düzenlemeyi ve satmayı</span> öğreniyorum.</h1>
+          <p class="hero-text">
+            Bu site benim kişisel çalışma alanım. Burada web tasarımı, görsel kullanımı,
+            markalama, yayınlama ve ileride AI otomasyonlarını adım adım öğreneceğim.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#tasks">Bugünkü görevler</a>
+            <a class="btn btn-secondary" href="#about">Yol haritam</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="mini-label">AKTİF PROJE</div>
+          <h2>Web Lab v1</h2>
+          <p>İlk hedef: bir siteyi sıfırdan kurmak, içerik eklemek, görsel değiştirmek ve internet üzerinde yayınlamak.</p>
+          <div class="progress-row"><span>Öğrenme ilerlemesi</span><strong>10%</strong></div>
+          <div class="progress"><span style="width: 10%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">YOL HARİTASI</p>
+          <h2>Önce temeli öğreneceğim</h2>
+          <p>Şimdilik müşteri işi yok. Bu alan, gerçek müşteri almadan önce sistemi öğrenmek için hazırlanıyor.</p>
+        </div>
+        <div class="cards four">
+          <article class="card"><span class="step">01</span><h3>Site kurma</h3><p>Dosya yapısı, sayfa oluşturma ve temel tasarım.</p></article>
+          <article class="card"><span class="step">02</span><h3>Düzenleme</h3><p>Metin, başlık, renk, buton ve bölüm değiştirme.</p></article>
+          <article class="card"><span class="step">03</span><h3>Görsel & marka</h3><p>Fotoğraf ekleme, logo, renk sistemi ve görsel düzen.</p></article>
+          <article class="card"><span class="step">04</span><h3>Yayınlama</h3><p>Domain, hosting, HTTPS ve Google'da bulunabilirlik.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">PROJE DEFTERİ</p>
+          <h2>Bu sitede öğreneceğim gerçek işler</h2>
+        </div>
+        <div class="project-list">
+          <div class="project-row"><span class="status done">BAŞLADI</span><div><h3>01. Kişisel demo sitesi</h3><p>Bu site. Dosya yapısını anlamak ve ilk düzenlemeleri yapmak.</p></div></div>
+          <div class="project-row"><span class="status next">SIRADA</span><div><h3>02. İlk görsel değişikliği</h3><p>Bir fotoğrafı assets klasörüne koyup sitede kullanmak.</p></div></div>
+          <div class="project-row"><span class="status next">SIRADA</span><div><h3>03. Marka sistemi</h3><p>Logo, renk paleti, yazı karakteri ve buton stilini değiştirmek.</p></div></div>
+          <div class="project-row"><span class="status next">SIRADA</span><div><h3>04. Mobil düzen</h3><p>Telefon ekranında sitenin düzgün görünmesini sağlamak.</p></div></div>
+          <div class="project-row"><span class="status future">SONRA</span><div><h3>05. Yayına alma</h3><p>Hosting + domain + HTTPS.</p></div></div>
+          <div class="project-row"><span class="status future">SONRA</span><div><h3>06. Google & SEO</h3><p>Search Console, sitemap ve temel SEO.</p></div></div>
+          <div class="project-row"><span class="status future">SONRA</span><div><h3>07. AI otomasyon</h3><p>WhatsApp, Instagram, form ve randevu akışlarını öğrenmek.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">GÖRSEL LABORATUVARI</p>
+          <h2>Fotoğraf eklemeyi burada deneyeceğim</h2>
+          <p>Aşağıdaki alan kalıcı sunucu yüklemesi değildir. Seçtiğin görseli tarayıcıda önizlemek için eğitim amaçlıdır.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-placeholder" id="previewA"><span>Görsel 1</span></div>
+          <div class="gallery-placeholder" id="previewB"><span>Görsel 2</span></div>
+          <div class="gallery-placeholder" id="previewC"><span>Görsel 3</span></div>
+        </div>
+        <div class="upload-box">
+          <label for="imageInput">Bilgisayardan görsel seç</label>
+          <input id="imageInput" type="file" accept="image/*" multiple />
+          <p id="uploadStatus">En fazla 3 görsel seçebilirsin.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tasks" class="section dark">
+      <div class="container">
+        <div class="section-head light">
+          <p class="eyebrow">UYGULAMALI GÖREVLER</p>
+          <h2>Benim öğrenme panelim</h2>
+          <p>Bu görevleri tek tek yapacağız. Her tamamlanan görevden sonra neden yaptığımızı da öğreneceğiz.</p>
+        </div>
+        <div class="task-grid">
+          <label class="task"><input type="checkbox" /> <span><strong>Görev 1</strong> Başlığı kendim değiştir</span></label>
+          <label class="task"><input type="checkbox" /> <span><strong>Görev 2</strong> Ana rengi kendim değiştir</span></label>
+          <label class="task"><input type="checkbox" /> <span><strong>Görev 3</strong> Assets klasörüne fotoğraf ekle</span></label>
+          <label class="task"><input type="checkbox" /> <span><strong>Görev 4</strong> Fotoğrafı HTML içinde kullan</span></label>
+          <label class="task"><input type="checkbox" /> <span><strong>Görev 5</strong> WhatsApp butonu ekle</span></label>
+          <label class="task"><input type="checkbox" /> <span><strong>Görev 6</strong> Siteyi telefonda test et</span></label>
+          <label class="task"><input type="checkbox" /> <span><strong>Görev 7</strong> Siteyi internete yayınla</span></label>
+          <label class="task"><input type="checkbox" /> <span><strong>Görev 8</strong> Kendi domainimi bağla</span></label>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>Mehmet Web Lab</p>
+      <p>Öğren • Yap • Test et • Yayınla</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
